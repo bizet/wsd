@@ -29,9 +29,33 @@ div#app-download .app-download-con .left {
 
 div#app-download .app-download-con .right .intro {
   position: relative;
-  width: 50%;
+  width:  35em;
   padding: 3em 0;
   color: #fff;
+}
+
+div#app-download .app-download-con .right .intro h2 {
+  font-size: 4em;
+}
+
+div#app-download .app-download-con .right .intro p {
+  font-size: 2em;
+}
+
+div#app-help {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 10em;
+  background: #fff;
+}
+
+div#app-help .app-help-con {
+  position: relative;
+  display: block;
+  width: 70em;
+  height: 100%;
+  margin: 0 auto;
 }
 div#footer {
   position: relative;
