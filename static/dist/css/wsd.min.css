@@ -1,5 +1,5 @@
 body {
-  font-family: "arial", 微软雅黑, 黑体, "Microsoft YaHei", sans-serif;
+  font-family: "arial", "微软雅黑", "黑体", "Microsoft YaHei", sans-serif;
 }
 
 div.tpl {
@@ -27,7 +27,7 @@ div#footer .footer-con {
 
 div#footer .footer-con p,
 div#footer .footer-con a {
-  font-size: .6em;
+  font-size: .8em;
 }
 
 div#footer .footer-con h3 {
