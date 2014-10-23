@@ -1,0 +1,191 @@
+body {
+  font-family: "arial", 微软雅黑, 黑体, "Microsoft YaHei", sans-serif;
+}
+
+div.tpl {
+  position: relative;
+  margin-top: 5.5em;
+}
+div#footer {
+  position: relative;
+  display: block;
+  width: 100%;
+  border-top: .8em solid #4e4e4e;
+  background: #363636;
+  clear: both;
+  padding: 1.2em 0;
+  color: #8d8d8d;
+  line-height: 1.8em;
+}
+
+div#footer .footer-con {
+  position: relative;
+  display: block;
+  width: 70em;
+  margin: 0 auto;
+}
+
+div#footer .footer-con p,
+div#footer .footer-con a {
+  font-size: .6em;
+}
+
+div#footer .footer-con h3 {
+  font-size: 1em;
+  color: #b0b0b0;
+}
+
+div#footer .footer-con .link {
+  position: relative;
+  display: block;
+  float: left;
+  width: 25em;
+  height: 8em;
+  border-right: 1px dotted #818181;
+  padding: 0 2em;
+}
+
+div#footer .footer-con .rights {
+  position: relative;
+  display: block;
+  float: left;
+  width: 25em;
+  height: 8em;
+  border-right: 1px dotted #818181;
+  padding: 0 2em;
+}
+
+div#footer .footer-con .contact {
+  position: relative;
+  display: block;
+  float: left;
+  width: 20em;
+  height: 8em;
+  padding: 0 2em;
+}
+div#menu {
+  position: fixed;
+  top: 0;
+  display: block;
+  background-color: #333;
+  color: #fff;
+  width: 100%;
+  height: 5.5em;
+  z-index: 1;
+}
+div#menu .menu-con{
+  position: relative;
+  display: block;
+  width: 70em;
+  height: 100%;
+  margin: 0 auto;
+}
+div#menu .menu-con img {
+  width: 8.9em;
+  height: 5.5em;
+}
+
+div#menu .login {
+  float: right;
+  line-height: 5.5em;
+  margin: 0 .5em;
+}
+
+div#menu .login span {
+  padding: 0 1em;
+  font-size: .8em;
+  color: #ccc;
+}
+
+div#menu .nav {
+  float: right;
+  line-height: 5.5em;
+  margin: 0 .5em;
+}
+
+div#menu .nav span {
+  padding: 0 1em;
+  font-size: 1em;
+  color: #fff;
+}
+.s-title {
+  position: relative;
+  width: 100%;
+  line-height: 9em;
+}
+
+.s-title p {
+  font-size: 3em;
+  color: #007cc2;
+  text-align: center;
+}
+div#s1 {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 60em;
+  background: #007cc2 url(../../img/s1_bg.png) no-repeat center;
+}
+
+div#s1 .s1-con {
+  position: relative;
+  display: block;
+  width: 70em;
+  height: 100%;
+  margin: 0 auto;
+}
+
+div#s1 .intro {
+  position: relative;
+  width: 80%;
+  padding: 3em 0;
+  color: #fff;
+}
+
+div#s1 .intro h2 {
+  font-size: 4.5em;
+}
+
+div#s1 .intro p {
+  font-size: 3em;
+}
+
+div#s1 .sign {
+  position: relative;
+  width: 80%;
+}
+
+div#s1 button {
+  width: 16em;
+  color: #007cc2;
+}
+div#s2 {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 60em;
+  background: #fff;
+}
+
+div#s2 .s1-con {
+  position: relative;
+  display: block;
+  width: 70em;
+  height: 100%;
+  margin: 0 auto;
+}
+div#s3 {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 60em;
+  background: #f4f4f4;
+}
+
+div#s3 .s1-con {
+  position: relative;
+  display: block;
+  width: 70em;
+  height: 100%;
+  margin: 0 auto;
+}

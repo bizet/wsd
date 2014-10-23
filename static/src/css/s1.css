@@ -1,0 +1,40 @@
+div#s1 {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 60em;
+  background: #007cc2 url(../../img/s1_bg.png) no-repeat center;
+}
+
+div#s1 .s1-con {
+  position: relative;
+  display: block;
+  width: 70em;
+  height: 100%;
+  margin: 0 auto;
+}
+
+div#s1 .intro {
+  position: relative;
+  width: 80%;
+  padding: 3em 0;
+  color: #fff;
+}
+
+div#s1 .intro h2 {
+  font-size: 4.5em;
+}
+
+div#s1 .intro p {
+  font-size: 3em;
+}
+
+div#s1 .sign {
+  position: relative;
+  width: 80%;
+}
+
+div#s1 button {
+  width: 16em;
+  color: #007cc2;
+}

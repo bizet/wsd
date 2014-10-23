@@ -1,0 +1,45 @@
+div#menu {
+  position: fixed;
+  top: 0;
+  display: block;
+  background-color: #333;
+  color: #fff;
+  width: 100%;
+  height: 5.5em;
+  z-index: 1;
+}
+div#menu .menu-con{
+  position: relative;
+  display: block;
+  width: 70em;
+  height: 100%;
+  margin: 0 auto;
+}
+div#menu .menu-con img {
+  width: 8.9em;
+  height: 5.5em;
+}
+
+div#menu .login {
+  float: right;
+  line-height: 5.5em;
+  margin: 0 .5em;
+}
+
+div#menu .login span {
+  padding: 0 1em;
+  font-size: .8em;
+  color: #ccc;
+}
+
+div#menu .nav {
+  float: right;
+  line-height: 5.5em;
+  margin: 0 .5em;
+}
+
+div#menu .nav span {
+  padding: 0 1em;
+  font-size: 1em;
+  color: #fff;
+}

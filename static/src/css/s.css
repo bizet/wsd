@@ -1,0 +1,11 @@
+.s-title {
+  position: relative;
+  width: 100%;
+  line-height: 9em;
+}
+
+.s-title p {
+  font-size: 3em;
+  color: #007cc2;
+  text-align: center;
+}
