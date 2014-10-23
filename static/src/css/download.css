@@ -1,0 +1,27 @@
+div#app-download {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 32em;
+  background: #f47723;
+}
+
+div#app-download .app-download-con {
+  position: relative;
+  display: block;
+  width: 70em;
+  height: 100%;
+  margin: 0 auto;
+}
+div#app-download .app-download-con .left {
+  width: 35em;
+  height: 32em;
+  background:  url(../../img/phone.png) no-repeat;
+}
+
+div#app-download .app-download-con .right .intro {
+  position: relative;
+  width: 50%;
+  padding: 3em 0;
+  color: #fff;
+}

@@ -15,8 +15,8 @@
         <a href="#">用户登录</a>
       </div>
       <div class="nav">
-        <a href="intro">企业中心</a>
-        <a href="app">APP下载</a>
+        <a href="./index.php">企业中心</a>
+        <a href="./download">APP下载</a>
       </div>
     </div>
     <div style="clear:both;"></div>
@@ -46,7 +46,7 @@
       <div class="contact">
         <h3>联系我们：</h3>
         <p> Tel : 021-xxxxxxxx-xxxx <br>
-                Mail : <a href="mailto:ppz_cs@126.com">xxxx@ivtask.com</a></p>
+                Mail : <a href="mailto:#">xxxx@ivtask.com</a></p>
       </div>
       <div style="clear:both;"></div>
       

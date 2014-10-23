@@ -26,7 +26,7 @@ div#menu .login {
   margin: 0 .5em;
 }
 
-div#menu .login span {
+div#menu .login a {
   padding: 0 1em;
   font-size: .8em;
   color: #ccc;
@@ -38,7 +38,7 @@ div#menu .nav {
   margin: 0 .5em;
 }
 
-div#menu .nav span {
+div#menu .nav a {
   padding: 0 1em;
   font-size: 1em;
   color: #fff;
