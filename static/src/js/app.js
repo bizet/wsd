@@ -8,10 +8,16 @@ angular.module('wsd', [
         download = {
           templateUrl: 'static/tpl/download.html',
           controller: 'download_controller'
+        },
+        sign = {
+          templateUrl: 'static/tpl/sign.html',
+          controller: 'sign_controller'
         };
     $routeProvider
+      .when('/sign', sign)
       .when('/download', download)
       .when('/index.php', intro)
-      .when('/', intro);
+      .when('/', intro)
+      .otherwise({redirectTo: '/'});
     $locationProvider.html5Mode(true);
   });

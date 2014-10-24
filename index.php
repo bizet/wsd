@@ -9,14 +9,14 @@
 <body>
   <div id="menu" ng-controller="menu_controller">
     <div class="menu-con">
-      <img src="static/img/l1.jpg">
+      <img src="static/img/wsdlogo.jpg">
       <div class="login">
-        <a href="#">用户注册</a>
-        <a href="#">用户登录</a>
+        <a href="sign">用户注册</a>
+        <a href="sign">用户登录</a>
       </div>
       <div class="nav">
-        <a href="./index.php">企业中心</a>
-        <a href="./download">APP下载</a>
+        <a href="index.php">企业中心</a>
+        <a href="download">APP下载</a>
       </div>
     </div>
     <div style="clear:both;"></div>
@@ -58,7 +58,7 @@
   <script>
     angular.element(document.getElementsByTagName('head')).append(angular.element('<base href="' + window.location.pathname + '" />'));
   </script>
-  <script src="http://ajax.useso.com/ajax/libs/angularjs/1.2.26/angular-route.min.js"></script>
+  <script src="http://ajax.useso.com/ajax/libs/angularjs/1.2.0/angular-route.min.js"></script>
   <script src="static/dist/js/wsd.min.js"></script>
 </body>
 </html>

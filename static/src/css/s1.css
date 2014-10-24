@@ -2,8 +2,8 @@ div#s1 {
   position: relative;
   display: block;
   width: 100%;
-  height: 60em;
-  background: #007cc2 url(../../img/s1_bg.png) no-repeat center;
+  height: 663px;
+  background: #f3f3f3 url(../../img/s1.jpg) no-repeat center;
 }
 
 div#s1 .s1-con {
@@ -14,27 +14,14 @@ div#s1 .s1-con {
   margin: 0 auto;
 }
 
-div#s1 .intro {
-  position: relative;
-  width: 80%;
-  padding: 3em 0;
-  color: #fff;
-}
-
-div#s1 .intro h2 {
-  font-size: 4.5em;
-}
-
-div#s1 .intro p {
-  font-size: 3em;
-}
-
 div#s1 .sign {
+  padding-top: 570px;
+  padding-left: 100px;
   position: relative;
   width: 80%;
 }
 
 div#s1 button {
   width: 16em;
-  color: #007cc2;
+  color: #fff;
 }
