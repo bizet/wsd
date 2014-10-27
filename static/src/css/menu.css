@@ -2,8 +2,8 @@ div#menu {
   position: fixed;
   top: 0;
   display: block;
-  background-color: #fff;
-  color: #333;
+  background-color: #007cc2;
+  color: #fff;
   width: 100%;
   height: 5.5em;
   z-index: 1;
@@ -30,7 +30,7 @@ div#menu .login {
 div#menu .login a {
   padding: 0 1em;
   font-size: .8em;
-  color: #ccc;
+  color: #ddd;
 }
 
 div#menu .nav {
@@ -42,5 +42,5 @@ div#menu .nav {
 div#menu .nav a {
   padding: 0 1em;
   font-size: 1em;
-  color: #999;
+  color: #eee;
 }

@@ -3,10 +3,10 @@ div#footer {
   display: block;
   width: 100%;
   /*border-top: .8em solid #4e4e4e;*/
-  background: #fff;
+  background: #007cc2;
   clear: both;
   padding: 1.2em 0;
-  color: #555;
+  color: #fff;
   line-height: 1.8em;
 }
 
@@ -24,7 +24,7 @@ div#footer .footer-con a {
 
 div#footer .footer-con h3 {
   font-size: 1em;
-  color: #888;
+  color: #ddd;
 }
 
 div#footer .footer-con .link {
