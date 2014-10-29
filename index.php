@@ -1,7 +1,8 @@
 <!doctype html>
-<html lang="zh-CN" ng-app="wsd">
+<html lang="zh-CN" xmlns:ng="http://angularjs.org" id="ng-app" ng-app="wsd">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=8">
   <title>微事代</title>
   <link rel="stylesheet" href="http://libs.useso.com/js/bootstrap/3.2.0/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="static/dist/css/wsd.min.css">
@@ -11,12 +12,12 @@
     <div class="menu-con">
       <img src="static/img/wsdlogo.jpg">
       <div class="login">
-        <a href="sign">用户注册</a>
-        <a href="sign">用户登录</a>
+        <a href="#/sign">用户注册</a>
+        <a href="#/sign">用户登录</a>
       </div>
       <div class="nav">
-        <a href="index.php">企业中心</a>
-        <a href="download">APP下载</a>
+        <a href="#/">企业中心</a>
+        <a href="#/download">APP下载</a>
       </div>
     </div>
     <div style="clear:both;"></div>
@@ -54,7 +55,7 @@
   </div>
   <script src="http://libs.useso.com/js/jquery/1.9.1/jquery.min.js"></script>
   <script src="http://libs.useso.com/js/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-  <script src="http://ajax.useso.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+  <script src="http://ajax.useso.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
   <script>
     angular.element(document.getElementsByTagName('head')).append(angular.element('<base href="' + window.location.pathname + '" />'));
   </script>
