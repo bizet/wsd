@@ -1,6 +1,6 @@
 <div id="sign">
   <div class="sign-con">
-    <div class="sign-up pull-left">
+    <form class="sign-up pull-left">
       <h2>快速注册</h2>
       <span>邮箱地址</span>
       <input type='text' class="form-control">
@@ -9,15 +9,17 @@
       <span>确认密码</span>
       <input type='text' class="form-control">
       <button class="btn btn-primary pull-right">注册</button>
-    </div>
-    <div class="sign-up pull-right">
+    </form>
+    <form class="sign-up pull-right" name="loginForm">
       <h2>已有账户</h2>
       <span>邮箱地址</span>
-      <input type="text" class="form-control">
+      <input type="text" class="form-control" ng-model="user.username">
       <span>密码</span>
-      <input type="text" class="form-control">
-      <button class="btn btn-primary pull-right">登录</button>
-    </div>
+      <input type="password" class="form-control" ng-model="user.password">
+      <button class="btn btn-primary pull-right" ng-click="login()">登录</button>
+    </form>
     <div style="clear:both;"></div>
   </div>
 </div>
+
+
