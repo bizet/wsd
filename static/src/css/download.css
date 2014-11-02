@@ -4,10 +4,10 @@ div#app-download {
   width: 100%;
   height: 37em;
   /*background: #f47723;*/
-  background: #f3f3f3;
 }
 
 div#app-download .app-download-con {
+  background-color: #f3f3f3;
   position: relative;
   display: block;
   width: 70em;

@@ -2,28 +2,37 @@ div#menu {
   position: fixed;
   top: 0;
   display: block;
-  background-color: #007cc2;
   color: #fff;
   width: 100%;
-  height: 5.5em;
+  height: 4.7em;
   z-index: 1;
 }
 div#menu .menu-con{
   position: relative;
+  background-color: #007cc2;
   display: block;
   width: 70em;
   height: 100%;
   margin: 0 auto;
+  line-height: 4.7em;
+}
+div#menu .menu-con h2 {
+  float:left;
+  display: block;
+  width: 300px;
+  font-size: 1.2em;
+  line-height: inherit;
+  margin:0;
 }
 div#menu .menu-con img {
-  margin-top: .5em;
-  width: 125px;
+  float: left;
+  margin-top: .2em;
+  width: 60px;
   height: 60px;
 }
 
 div#menu .login {
   float: right;
-  line-height: 5.5em;
   margin: 0 .5em;
 }
 
@@ -35,7 +44,7 @@ div#menu .login a {
 
 div#menu .nav {
   float: right;
-  line-height: 5.5em;
+  line-height: 4.7em;
   margin: 0 .5em;
 }
 

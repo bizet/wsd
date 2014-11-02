@@ -1,21 +1,23 @@
 body {
   font-family: "arial", "微软雅黑", "黑体", "Microsoft YaHei", sans-serif;
+  background-color: #eaeaea;
 }
 
 div.tpl {
   position: relative;
-  margin-top: 5.5em;
+  margin-top: 4.7em;
 }
+
 div#app-download {
   position: relative;
   display: block;
   width: 100%;
   height: 37em;
   /*background: #f47723;*/
-  background: #f3f3f3;
 }
 
 div#app-download .app-download-con {
+  background-color: #f3f3f3;
   position: relative;
   display: block;
   width: 70em;
@@ -50,14 +52,16 @@ div#footer {
   display: block;
   width: 100%;
   /*border-top: .8em solid #4e4e4e;*/
-  background: #007cc2;
   clear: both;
-  padding: 1.2em 0;
+  padding: 0;
   color: #fff;
   line-height: 1.8em;
+  margin: 0;
 }
 
 div#footer .footer-con {
+  padding: 0;
+  background: #007cc2;
   position: relative;
   display: block;
   width: 70em;
@@ -79,7 +83,7 @@ div#footer .footer-con .link {
   display: block;
   float: left;
   width: 25em;
-  height: 8em;
+  height: 7em;
   border-right: 1px dotted #818181;
   padding: 0 2em;
 }
@@ -89,7 +93,7 @@ div#footer .footer-con .rights {
   display: block;
   float: left;
   width: 25em;
-  height: 8em;
+  height: 7em;
   border-right: 1px dotted #818181;
   padding: 0 2em;
 }
@@ -99,35 +103,45 @@ div#footer .footer-con .contact {
   display: block;
   float: left;
   width: 20em;
-  height: 8em;
+  height: 7em;
   padding: 0 2em;
 }
+
 div#menu {
   position: fixed;
   top: 0;
   display: block;
-  background-color: #007cc2;
   color: #fff;
   width: 100%;
-  height: 5.5em;
+  height: 4.7em;
   z-index: 1;
 }
 div#menu .menu-con{
   position: relative;
+  background-color: #007cc2;
   display: block;
   width: 70em;
   height: 100%;
   margin: 0 auto;
+  line-height: 4.7em;
+}
+div#menu .menu-con h2 {
+  float:left;
+  display: block;
+  width: 300px;
+  font-size: 1.2em;
+  line-height: inherit;
+  margin:0;
 }
 div#menu .menu-con img {
-  margin-top: .5em;
-  width: 125px;
+  float: left;
+  margin-top: .2em;
+  width: 60px;
   height: 60px;
 }
 
 div#menu .login {
   float: right;
-  line-height: 5.5em;
   margin: 0 .5em;
 }
 
@@ -139,7 +153,7 @@ div#menu .login a {
 
 div#menu .nav {
   float: right;
-  line-height: 5.5em;
+  line-height: 4.7em;
   margin: 0 .5em;
 }
 
@@ -148,6 +162,7 @@ div#menu .nav a {
   font-size: 1em;
   color: #eee;
 }
+
 .s-title {
   position: relative;
   width: 100%;
@@ -164,10 +179,10 @@ div#s1 {
   display: block;
   width: 100%;
   height: 420px;
-  background: #f3f3f3;
 }
 
 div#s1 .s1-con {
+  background: #f3f3f3;
   position: relative;
   display: block;
   width: 70em;
@@ -216,6 +231,7 @@ div#s1 button {
   width: 16em;
   color: #fff;
 }
+
 div#s2 {
   position: relative;
   display: block;
@@ -251,7 +267,6 @@ div#sign {
   display: block;
   width: 100%;
   height: 30em;
-  background-color: #f3f3f3;
 }
 
 div#sign .sign-con {

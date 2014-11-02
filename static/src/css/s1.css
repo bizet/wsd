@@ -3,10 +3,10 @@ div#s1 {
   display: block;
   width: 100%;
   height: 420px;
-  background: #f3f3f3;
 }
 
 div#s1 .s1-con {
+  background: #f3f3f3;
   position: relative;
   display: block;
   width: 70em;

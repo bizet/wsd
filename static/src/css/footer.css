@@ -3,14 +3,16 @@ div#footer {
   display: block;
   width: 100%;
   /*border-top: .8em solid #4e4e4e;*/
-  background: #007cc2;
   clear: both;
-  padding: 1.2em 0;
+  padding: 0;
   color: #fff;
   line-height: 1.8em;
+  margin: 0;
 }
 
 div#footer .footer-con {
+  padding: 0;
+  background: #007cc2;
   position: relative;
   display: block;
   width: 70em;
@@ -32,7 +34,7 @@ div#footer .footer-con .link {
   display: block;
   float: left;
   width: 25em;
-  height: 8em;
+  height: 7em;
   border-right: 1px dotted #818181;
   padding: 0 2em;
 }
@@ -42,7 +44,7 @@ div#footer .footer-con .rights {
   display: block;
   float: left;
   width: 25em;
-  height: 8em;
+  height: 7em;
   border-right: 1px dotted #818181;
   padding: 0 2em;
 }
@@ -52,6 +54,6 @@ div#footer .footer-con .contact {
   display: block;
   float: left;
   width: 20em;
-  height: 8em;
+  height: 7em;
   padding: 0 2em;
 }
